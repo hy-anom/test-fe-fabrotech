@@ -1,0 +1,33 @@
+.images {
+  width: 100px;
+  height: 100px;
+}
+
+.card {
+  flex: 30%;
+  background-color: var(--card);
+  padding: 15px;
+  max-width: 400px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.price {
+  color: var(--primary);
+}
+
+.low {
+  color: var(--error);
+}
+
+.stock {
+  color: var(--primary);
+}
+
+.info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}

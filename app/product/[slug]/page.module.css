@@ -1,0 +1,36 @@
+.page {
+  --gray-rgb: #292c3c;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+
+  display: grid;
+  grid-template-rows: 20px 1fr 20px;
+  justify-items: center;
+  min-height: 100svh;
+  max-width: 1200px;
+  padding: 20px 80px;
+  font-family: var(--font-geist-sans);
+  margin: auto;
+}
+
+.product {
+  background-color: var(--card);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  grid-row-start: 2;
+  padding: 20px;
+}
+
+.images {
+  width: 400px;
+  height: 400px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
